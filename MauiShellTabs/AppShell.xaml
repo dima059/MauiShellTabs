@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    x:Class="MauiShellTabs.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:MauiShellTabs"
+    Shell.FlyoutBehavior="Disabled"
+    Title="MauiShellTabs">
+    <TabBar>
+        <Tab Title="State">
+            <ShellContent Title="1" ContentTemplate="{DataTemplate local:LightTab}">
+                <!--<local:LightTab/>-->
+            </ShellContent>
+
+            <ShellContent Title="2" ContentTemplate="{DataTemplate local:LightTab}">
+                <!--<local:LightTab/>-->
+            </ShellContent>
+
+            <ShellContent Title="3" ContentTemplate="{DataTemplate local:LightTab}">
+                <!--<local:LightTab/>-->
+            </ShellContent>
+
+            <ShellContent Title="4" ContentTemplate="{DataTemplate local:LightTab}">
+                <!--<local:LightTab/>-->
+            </ShellContent>
+
+            <ShellContent Title="5" ContentTemplate="{DataTemplate local:LightTab}">
+                <!--<local:LightTab/>-->
+            </ShellContent>
+
+            <ShellContent Title="6" ContentTemplate="{DataTemplate local:LightTab}">
+                <!--<local:LightTab/>-->
+            </ShellContent>
+
+            <ShellContent Title="7" ContentTemplate="{DataTemplate local:LightTab}">
+                <!--<local:LightTab/>-->
+            </ShellContent>
+
+            <ShellContent Title="8" ContentTemplate="{DataTemplate local:LightTab}">
+                <!--<local:LightTab/>-->
+            </ShellContent>
+        </Tab>
+        <ShellContent Title="Home" ContentTemplate="{DataTemplate local:LightTab}">
+            <!--<local:LightTab/>-->
+        </ShellContent>
+    </TabBar>
+
+</Shell>
